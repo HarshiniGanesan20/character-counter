@@ -17,7 +17,7 @@
 .inner-container {
     padding: 30px;
     width: 40%;
-    height: 60%;
+    height: auto;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -60,7 +60,7 @@ textarea::placeholder {
     .inner-container {
         padding: 30px;
         width: 80%;
-        height: 30%;
+        height: auto;
     }
 }
 
@@ -69,7 +69,7 @@ textarea::placeholder {
     .inner-container {
         padding: 30px;
         width: 80%;
-        height: 45%;
+        height: auto;
     }
     #errormsg
     {
@@ -77,3 +77,15 @@ textarea::placeholder {
     }
 }
 
+@media (max-width:400px)
+{
+    .inner-container {
+        padding: 30px;
+        width: 80%;
+        height: auto;
+    }
+    #errormsg
+    {
+        font-size: 13px;
+    }
+}
